@@ -13,7 +13,7 @@ steps:
 - task: AzureCLI@2
   displayName: Azure CLI
   inputs:
-    azureSubscription: 78534b60-bade-49c3-8bab-d1ecfc414f47
+    azureSubscription: "BruDelme"
     scriptType: ps
     scriptLocation: inlineScript
     inlineScript: |
