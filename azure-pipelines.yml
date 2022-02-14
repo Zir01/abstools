@@ -17,4 +17,4 @@ steps:
     scriptType: ps
     scriptLocation: inlineScript
     inlineScript: |
-      az vm deallocate --resource-group Playground --name myvm
+      az vm start --resource-group Playground --name myvm
